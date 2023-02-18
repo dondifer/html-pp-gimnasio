@@ -5,8 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gatitos</title>
+    <style>
+      body {
+        background-image: url(./assets/imgs/cat2.jpg);
+        margin: 0;
+      }
+      img {
+        height: 15rem;
+        width: 20rem;
+      }
+      img,
+      video {
+        -webkit-box-shadow: 10px 10px 37px 10px rgba(0, 0, 0, 0.81);
+        -moz-box-shadow: 10px 10px 37px 10px rgba(0, 0, 0, 0.81);
+        box-shadow: 10px 10px 37px 10px rgba(0, 0, 0, 0.81);
+      }
+      section {
+        margin-top: 2rem;
+      }
+      nav {
+        background: rgb(255, 248, 191);
+        background: linear-gradient(
+          90deg,
+          rgba(255, 248, 191, 1) 13%,
+          rgba(255, 255, 255, 1) 53%,
+          rgba(183, 255, 127, 1) 100%
+        );
+        top: 0;
+        position: relative;
+        width: 100%;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 0.5rem;
+      }
+      nav a {
+        padding: 0 0.2rem;
+        color: rgb(48, 70, 32);
+      }
+    </style>
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./gatitos.html">Gatitos</a>
+    </nav>
+    <main>
+      <section>
+        <img src="./assets/imgs/cat1.jpg" alt="Gato 1" title="Gato 1" />
+        <img src="./assets/imgs/cat2.jpg" alt="Gato 2" title="Gato 2" />
+        <img src="./assets/imgs/cat3.jpg" alt="Gato 3" title="Gato 3" />
+        <img src="./assets/imgs/cat4.jpg" alt="Gato 4" title="Gato 4" />
+        <img
+          src="./assets/imgs/wilfred-cuatro.jpg"
+          alt="WILFRED THE WARRIOR"
+          title="WILFRED THE WARRIOR"
+        />
+      </section>
+      <section>
+        <video controls>
+          <source src="./assets/video/cute-cat-3092.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section>
+        <audio controls>
+          <source src="./assets/audio/cat-meow-14536.mp3" type="audio/mpeg" />
+        </audio>
+        <audio controls>
+          <source src="./assets/audio/cats-meow-81221.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
+    </main>
   </body>
 </html>
